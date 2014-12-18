@@ -539,7 +539,7 @@ int totalNumber(Container<T> *con){
     
     int value;
     
-    value=con->isSorted(*con);
+    value=con->isSorted();
     
     if (value == true )
         return con->size();
