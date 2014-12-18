@@ -31,7 +31,7 @@ namespace Contain{
             vector<T> toVector();
             void addAll(const Container<T> &contain);
             void removeAll(const Container<T> &contain);
-            bool isSorted(const Container<T> &contain);
+            bool isSorted();
         
         protected:
             
