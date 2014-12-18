@@ -82,12 +82,12 @@ namespace Contain{
         
     }
     template<class T>
-    bool Container<T>::isSorted(const Container<T>& contain){
+    bool Container<T>::isSorted(){
 
         int k=0;
 
-        for (int i=0;i<contain.vec.size()-1;++i){
-            if ( contain.vec[i] > contain.vec[i+1])
+        for (int i=0;i<vec.size()-1;++i){
+            if ( vec[i] > vec[i+1])
                 ++k;
         }
         if (k >0)
